@@ -26,7 +26,8 @@ def filter_kaggle_data(path, new_file):
     df = df[:500]
     df.to_csv(f"{new_file}")
 
-filter_kaggle_data(r"archive\arxiv_data_210930-054931.csv", "filtered_arxiv_data.csv")
+# Only run if needed
+# filter_kaggle_data(r"archive\arxiv_data_210930-054931.csv", "filtered_arxiv_data.csv")
 # %% Load and preprocess dataframe
 
 def dataframe_loading_and_processing(data_path):
