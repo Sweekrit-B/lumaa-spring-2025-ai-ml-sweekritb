@@ -3,6 +3,7 @@
 **Author**: Sweekrit Bhatnagar
 
 Upon search input from a user, returns the top search results based on scientific article abstracts.
+This app has been deployed on Streamlit! Available here: https://paper-recommender-ml.streamlit.app/
 
 ## Dataset
 
